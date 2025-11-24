@@ -2,10 +2,75 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <title>我的 GitHub Pages 测试</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>王泽旭 · 个人主页</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>如果你看到这一行，说明 GitHub Pages 已经成功了 ✅</h1>
-  <p>接下来我会把它换成多页面的个人网站。</p>
-</body>
-</html>
+  <!-- 顶部导航 -->
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-logo">王泽旭 · 记录矿山与影像</div>
+      <div class="nav-links">
+        <a href="index.html" class="active">主页</a>
+        <a href="photos.html">摄影作品</a>
+        <a href="work.html">工作记录 & 文件</a>
+      </div>
+    </nav>
+    <div class="page-hero">
+      <div class="page-hero-title">你好，我是王泽旭</div>
+      <div class="page-hero-sub">
+        央企矿山企业员工 · 团支部书记 · 摄影入门玩家 · 注册安全工程师备考中。
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- 关于我 -->
+    <section class="card">
+      <h2>关于我</h2>
+      <p class="text-sub">
+        目前在矿山企业从事地质与安全相关工作，同时在韶关市应急管理局跟班学习矿山安全监管、
+        防震减灾等工作。平时一方面负责团支部工作、主题团日活动策划，另一方面也在学习摄影、
+        写材料、准备注册安全工程师（矿山方向）考试。<br /><br />
+        这个网站用来简单记录我的工作和学习，也放一些自己拍的照片，顺便做个「在线个人名片」。
+      </p>
+      <div class="tag-list">
+        <span class="tag">🪨 矿山 / 安全监管</span>
+        <span class="tag">📷 摄影入门</span>
+        <span class="tag">📚 注安备考</span>
+        <span class="tag">👥 团支部书记</span>
+      </div>
+    </section>
+
+    <!-- 摄影、作品入口 -->
+    <section class="card">
+      <h2>摄影 & 作品集</h2>
+      <p class="text-sub">
+        这里会慢慢更新一些照片：矿山现场、城市街头、生活日常……也可能会放一些自己写的材料、
+        总结或 PPT 截图，算是给这段时间留个记录。
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="photos.html">进入摄影作品集</a>
+        <a class="btn btn-outline" href="work.html">查看工作记录 & 文件</a>
+      </div>
+    </section>
+
+    <!-- 最近更新 -->
+    <section class="card">
+      <h2>最近在做什么</h2>
+      <p class="text-sub">
+        · 持续学习矿山安全监管相关政策规范，整理学习笔记；<br />
+        · 结合跟班学习内容，写一些阶段性工作小结和汇报材料；<br />
+        · 偶尔带着尼康 Zf 出门拍拍照，练习构图和用光；<br />
+        · 规划中级注册安全工程师（矿山）备考节奏。
+      </p>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="card">
+      <h2>联系我</h2>
+      <p class="text-sub">如果你有类似行业、备考或摄影相关的话题，也欢迎交流：</p>
+      <ul style="margin-top: 8px; font-size: 0.9rem; color: #4b5563; list-style: none;">
+        <li>📮 邮箱：<a href="mailto:yourmail@example.com">yourmail@example.com</a>（记得改成你自己的）</li>
+        <li>💬 微信：可以只写一个备注说明，例如「熟人可加
