@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>工作记录 & 文件 · 王泽旭</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-logo">王泽旭 · 记录矿山与影像</div>
+      <div class="nav-links">
+        <a href="index.html">主页</a>
+        <a href="photos.html">摄影作品</a>
+        <a href="work.html" class="active">工作记录 & 文件</a>
+      </div>
+    </nav>
+    <div class="page-hero">
+      <div class="page-hero-title">工作记录 & 文件</div>
+      <div class="page-hero-sub">
+        平时写的一些总结、汇报材料、PPT 等，挑一部分不涉密的放在这里，给自己做个归档。
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <section class="card">
+      <h2>筛选与说明</h2>
+      <p class="text-sub">
+        建议在仓库里新建一个 <code>files/</code> 文件夹，把公开的 PDF / PPT / Word 文档放进去，
+        然后在下面为每条记录添加对应的下载链接。这里只是展示思路，具体文件名你可以后面再改。
+      </p>
+
+      <div class="filter-row" style="margin-top: 10px;">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="summary">工作总结</button>
+        <button class="filter-btn" data-filter="report">专项报告</button>
+        <button class="filter-btn" data-filter="ppt">PPT 演示</button>
+        <button class="filter-btn" data-filter="other">其他</button>
+      </div>
+
+      <div class="work-list" id="workList">
+        <!-- 示例一：阶段性工作小结 -->
+        <div class="work-item" data-category="summary">
+          <div class="work-top">
+            <div class="work-title">跟班学习阶段性工作小结（示例）</div>
+            <div class="work-date">2025-06-30</div>
+          </div>
+          <div class="work-desc">
+            对在市应急管理局矿山安全监管、防震减灾等方面的学习内容进行阶段性梳理，
+            总结主要工作、存在问题及下一步计划。
+          </div>
+          <div class="work-tags">
+            <span class="work-tag">工作总结</span>
+            <span class="work-tag">矿山安全</span>
+          </div>
+          <div class="work-files">
+            📎 文件：
+            <a href="files/example-summary.pdf" target="_blank" rel="noopener noreferrer">
+              下载 PDF（示例，后面换成你自己的）
+            </a>
+          </div>
+        </div>
+
+        <!-- 示例二：专项报告 -->
+        <div class="work-item" data-category="report">
+          <div class="work-top">
+            <div class="work-title">非煤矿山安全隐患排查整治情况报告（示例）</div>
+            <div class="work-date">2025-05-15</div>
+          </div>
+          <div class="work-desc">
+            针对某阶段非煤矿山检查情况形成的综合性汇报材料，包括检查数量、隐患类型、
+            典型问题和整改进度等内容。
+          </div>
+          <div class="work-tags">
+            <span class="work-tag">专项报告</span>
+            <span class="work-tag">隐患排查</span>
+          </div>
+          <div class="work-files">
+            📎 文件：
+            <a href="files/example-report.docx" target="_blank" rel="noopener noreferrer">
+              下载 Word（示例）
+            </a>
+          </div>
+        </div>
+
+        <!-- 示例三：PPT -->
+        <div class="work-item" data-category="ppt">
+          <div class="work-top">
+            <div class="work-title">青年安全生产主题分享 PPT（示例）</div>
+            <div class="work-date">2025-04-10</div>
+          </div>
+          <div class="work-desc">
+            面向青年员工的安全生产主题宣讲课件，结合企业实际案例和青年视角，
+            用于团日活动或内部交流。
+          </div>
+          <div class="work-tags">
+            <span class="work-tag">PPT</span>
+            <span class="work-tag">青年安全生产</span>
+          </div>
+          <div class="work-files">
+            📎 文件：
+            <a href="files/example-safety-youth.pptx" target="_blank" rel="noopener noreferrer">
+              下载 PPT（示例）
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> 王泽旭 · 个人网站 |
+    <a href="index.html">回到首页</a>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const workItems = document.querySelectorAll(".work-item");
+
+    filterButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const filter = btn.getAttribute("data-filter");
+
+        filterButtons.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        workItems.forEach((item) => {
+          const category = item.getAttribute("data-category");
+          if (filter === "all" || filter === category) {
+            item.style.display = "block";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
