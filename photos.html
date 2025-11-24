@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>摄影作品集 · 王泽旭</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-logo">王泽旭 · 记录矿山与影像</div>
+      <div class="nav-links">
+        <a href="index.html">主页</a>
+        <a href="photos.html" class="active">摄影作品</a>
+        <a href="work.html">工作记录 & 文件</a>
+      </div>
+    </nav>
+    <div class="page-hero">
+      <div class="page-hero-title">摄影作品集</div>
+      <div class="page-hero-sub">
+        还在学习阶段，先把一些喜欢的照片放在这里：矿山、城市、路上的风景，慢慢更新。
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <section class="card">
+      <h2>按类别浏览</h2>
+      <p class="text-sub">
+        建议在仓库里新建一个 <code>images/</code> 文件夹，把照片上传进去，然后在这里引用。
+        下面的图片路径和文字都是示例，你可以后面再一张张替换。
+      </p>
+
+      <div class="filter-row" style="margin-top: 10px;">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="mine">矿山现场</button>
+        <button class="filter-btn" data-filter="city">城市 / 建筑</button>
+        <button class="filter-btn" data-filter="life">生活 / 纪实</button>
+        <button class="filter-btn" data-filter="other">其他</button>
+      </div>
+
+      <div class="photo-grid" id="photoGrid">
+        <!-- 示意：矿山现场 -->
+        <div class="photo-item" data-category="mine">
+          <img src="images/sample-mine.jpg" alt="矿山示例" />
+          <div class="photo-meta">矿山一隅 · 现场记录</div>
+        </div>
+
+        <!-- 示意：城市/建筑 -->
+        <div class="photo-item" data-category="city">
+          <img src="images/sample-city.jpg" alt="城市示例" />
+          <div class="photo-meta">城市街头 · 夜色</div>
+        </div>
+
+        <!-- 示意：生活/纪实 -->
+        <div class="photo-item" data-category="life">
+          <img src="images/sample-life.jpg" alt="生活示例" />
+          <div class="photo-meta">生活日常 · 一角</div>
+        </div>
+
+        <!-- 示意：其他 -->
+        <div class="photo-item" data-category="other">
+          <img src="images/sample-other.jpg" alt="其他示例" />
+          <div class="photo-meta">随手一拍 · 练习</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> 王泽旭 · 个人网站 |
+    <a href="index.html">回到首页</a>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const photoItems = document.querySelectorAll(".photo-item");
+
+    filterButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const filter = btn.getAttribute("data-filter");
+
+        filterButtons.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        photoItems.forEach((item) => {
+          const category = item.getAttribute("data-category");
+          if (filter === "all" || filter === category) {
+            item.style.display = "block";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
