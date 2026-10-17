@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" role="img" aria-label="书签位置调整：先看错误，再看正确">
+<rect width="1000" height="510" fill="#FAFBFC"/>
+<text x="38" y="64" fill="#16181B" font-size="33" font-weight="700" font-family="sans-serif">书签位置调整：先看错误，再看正确</text>
+<text x="40" y="101" fill="#586271" font-size="18" font-family="sans-serif">资料位置：《IOA自制公文审核要点及规范操作清单》Sheet3</text>
+<rect x="40" y="143" width="920" height="90" rx="13" fill="#FFF1F2" stroke="#B42335" stroke-opacity=".25"/>
+<rect x="56" y="160" width="5" height="58" rx="3" fill="#B42335"/>
+<text x="77" y="178" font-size="23" font-family="sans-serif" fill="#B42335" font-weight="700">常见错误：剪切、粘贴系统书签</text>
+<text x="78" y="210" font-size="18" font-family="sans-serif" fill="#586271">这属于辅导清单列举的错误操作，不得照做。</text>
+<rect x="40" y="250" width="920" height="90" rx="13" fill="#EAF7F1" stroke="#087348" stroke-opacity=".25"/>
+<rect x="56" y="267" width="5" height="58" rx="3" fill="#087348"/>
+<text x="77" y="285" font-size="23" font-family="sans-serif" fill="#087348" font-weight="700">正确操作：拖拽书签到目标位置</text>
+<text x="78" y="317" font-size="18" font-family="sans-serif" fill="#586271">定位需要移动的书签 → 用拖拽调整 → 检查字段仍能正常关联。</text>
+<rect x="40" y="357" width="920" height="90" rx="13" fill="#EFF3FA" stroke="#305F9B" stroke-opacity=".25"/>
+<rect x="56" y="374" width="5" height="58" rx="3" fill="#305F9B"/>
+<text x="77" y="392" font-size="23" font-family="sans-serif" fill="#305F9B" font-weight="700">检查重点：书签完整、位置正确、更新不丢失</text>
+<text x="78" y="424" font-size="18" font-family="sans-serif" fill="#586271">这是一张操作对照示意图，不是 IOA 系统界面截图。</text>
+<text x="40" y="484" font-size="15" font-family="sans-serif" fill="#7C8794">教学示意图｜请以上传的 IOA 辅导清单及比赛现场流程为准</text></svg>

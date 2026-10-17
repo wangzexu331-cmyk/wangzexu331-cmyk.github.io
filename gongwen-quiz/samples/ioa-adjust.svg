@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" role="img" aria-label="IOA 公文申请调整操作流程">
+<rect width="1000" height="630" fill="#FAFBFC"/>
+<text x="38" y="64" fill="#16181B" font-size="33" font-weight="700" font-family="sans-serif">IOA 公文申请调整操作流程</text>
+<text x="40" y="101" fill="#586271" font-size="18" font-family="sans-serif">资料位置：《IOA自制公文审核要点及规范操作清单》Sheet3</text>
+<rect x="40" y="143" width="920" height="90" rx="13" fill="#EFF3FA" stroke="#305F9B" stroke-opacity=".25"/>
+<rect x="56" y="160" width="5" height="58" rx="3" fill="#305F9B"/>
+<text x="77" y="178" font-size="23" font-family="sans-serif" fill="#305F9B" font-weight="700">第1步：公文管理 → 公文已办</text>
+<text x="78" y="210" font-size="18" font-family="sans-serif" fill="#586271">选择需要调整的公文，在页面右上角点击“申请调整”。</text>
+<rect x="40" y="250" width="920" height="90" rx="13" fill="#EFF3FA" stroke="#305F9B" stroke-opacity=".25"/>
+<rect x="56" y="267" width="5" height="58" rx="3" fill="#305F9B"/>
+<text x="77" y="285" font-size="23" font-family="sans-serif" fill="#305F9B" font-weight="700">第2步：说明调整事由，提交审批</text>
+<text x="78" y="317" font-size="18" font-family="sans-serif" fill="#586271">部门负责人 → 签发领导 → 综合办公室 → 集团运维。</text>
+<rect x="40" y="357" width="920" height="90" rx="13" fill="#EAF7F1" stroke="#087348" stroke-opacity=".25"/>
+<rect x="56" y="374" width="5" height="58" rx="3" fill="#087348"/>
+<text x="77" y="392" font-size="23" font-family="sans-serif" fill="#087348" font-weight="700">第3步：审批结束后回到起草人</text>
+<text x="78" y="424" font-size="18" font-family="sans-serif" fill="#586271">按要求修改并提交，按照清单直接进入分发步骤。</text>
+<rect x="40" y="464" width="920" height="90" rx="13" fill="#FFF1F2" stroke="#B42335" stroke-opacity=".25"/>
+<rect x="56" y="481" width="5" height="58" rx="3" fill="#B42335"/>
+<text x="77" y="499" font-size="23" font-family="sans-serif" fill="#B42335" font-weight="700">不能调整：已经分发或转版的公文</text>
+<text x="78" y="531" font-size="18" font-family="sans-serif" fill="#586271">需按现行制度另行核实处理途径，不可直接改已发文件。</text>
+<text x="40" y="604" font-size="15" font-family="sans-serif" fill="#7C8794">教学示意图｜请以上传的 IOA 辅导清单及比赛现场流程为准</text></svg>

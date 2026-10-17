@@ -21,3 +21,16 @@
 .sample-modal-body{overflow:auto;max-height:calc(min(94dvh,950px) - 78px);padding:10px 12px 15px;display:flex;justify-content:center;align-items:flex-start;background:var(--bg-subtle)}
 .sample-modal-body img{display:block;width:auto;max-width:100%;height:auto;max-height:calc(min(94dvh,950px) - 100px);object-fit:contain;box-shadow:0 1px 8px rgba(0,0,0,.09);background:#fff}
 @media(max-width:520px){.evidence-card{padding:12px}.evidence-heading{flex-wrap:wrap}.sample-dialog{border-radius:12px}.sample-modal-head{padding:11px 12px}.sample-modal-head strong{font-size:14px}.sample-modal-source{font-size:10px}.sample-modal-body{padding:7px}}
+
+/* v1.3 题目操作栏放在答案之前，移动端保持两排且易于点击 */
+.quiz-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:0 0 16px;padding:10px 0 14px;border-bottom:1px solid var(--border)}
+.quiz-toolbar-nav,.quiz-toolbar-extra{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.quiz-toolbar .btn{min-height:38px;display:inline-flex;align-items:center;justify-content:center;gap:5px}
+.quiz-toolbar-extra .btn[aria-pressed="true"]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+.evidence-source{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.evidence-kind{font-size:11px;font-weight:700;white-space:nowrap;padding:2px 7px;border-radius:5px;color:var(--text-secondary);background:var(--bg-hover)}
+.evidence-kind.error{color:var(--danger);background:var(--danger-bg)}
+.evidence-kind.correct{color:var(--success);background:var(--success-bg)}
+.evidence-error .evidence-quote{border-left-color:var(--danger);background:var(--danger-bg)}
+.evidence-correct .evidence-quote{border-left-color:var(--success)}
+@media(max-width:680px){.quiz-toolbar{display:grid;grid-template-columns:1fr;gap:9px}.quiz-toolbar-nav,.quiz-toolbar-extra{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.quiz-toolbar .btn{width:100%;min-width:0;height:43px;padding:0 8px;font-size:12px}}

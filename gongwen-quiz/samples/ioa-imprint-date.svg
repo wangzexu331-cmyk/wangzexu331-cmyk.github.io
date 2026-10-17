@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" role="img" aria-label="印发日期：常见错误与规范操作">
+<rect width="1000" height="510" fill="#FAFBFC"/>
+<text x="38" y="64" fill="#16181B" font-size="33" font-weight="700" font-family="sans-serif">印发日期：常见错误与规范操作</text>
+<text x="40" y="101" fill="#586271" font-size="18" font-family="sans-serif">资料位置：《IOA自制公文审核要点及规范操作清单》Sheet3</text>
+<rect x="40" y="143" width="920" height="90" rx="13" fill="#FFF1F2" stroke="#B42335" stroke-opacity=".25"/>
+<rect x="56" y="160" width="5" height="58" rx="3" fill="#B42335"/>
+<text x="77" y="178" font-size="23" font-family="sans-serif" fill="#B42335" font-weight="700">常见错误：手动录入印发日期</text>
+<text x="78" y="210" font-size="18" font-family="sans-serif" fill="#586271">尤其不能将拟稿日期直接作为系统印发日期。</text>
+<rect x="40" y="250" width="920" height="90" rx="13" fill="#EAF7F1" stroke="#087348" stroke-opacity=".25"/>
+<rect x="56" y="267" width="5" height="58" rx="3" fill="#087348"/>
+<text x="77" y="285" font-size="23" font-family="sans-serif" fill="#087348" font-weight="700">正确操作：使用系统带出的印发日期</text>
+<text x="78" y="317" font-size="18" font-family="sans-serif" fill="#586271">核对系统字段，不擅自改成手动输入值。</text>
+<rect x="40" y="357" width="920" height="90" rx="13" fill="#EFF3FA" stroke="#305F9B" stroke-opacity=".25"/>
+<rect x="56" y="374" width="5" height="58" rx="3" fill="#305F9B"/>
+<text x="77" y="392" font-size="23" font-family="sans-serif" fill="#305F9B" font-weight="700">注意：以对应企业使用的 IOA 流程为准</text>
+<text x="78" y="424" font-size="18" font-family="sans-serif" fill="#586271">辅导清单要求保证日期与公司领导签发时间一致。</text>
+<text x="40" y="484" font-size="15" font-family="sans-serif" fill="#7C8794">教学示意图｜请以上传的 IOA 辅导清单及比赛现场流程为准</text></svg>

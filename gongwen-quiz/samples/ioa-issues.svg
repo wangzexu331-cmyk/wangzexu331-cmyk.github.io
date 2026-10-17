@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="IOA 常见错误与规范操作对照">
+<rect width="1000" height="620" fill="#FAFBFC"/>
+<text x="38" y="64" fill="#16181B" font-size="33" font-weight="700" font-family="sans-serif">IOA 常见错误与规范操作对照</text>
+<text x="40" y="101" fill="#586271" font-size="18" font-family="sans-serif">基于上传辅导清单中的错误条目和正确操作整理</text>
+<rect x="40" y="143" width="920" height="90" rx="13" fill="#FFF1F2" stroke="#B42335" stroke-opacity=".25"/>
+<rect x="56" y="160" width="5" height="58" rx="3" fill="#B42335"/>
+<text x="77" y="178" font-size="23" font-family="sans-serif" fill="#B42335" font-weight="700">错误① 标题断行割裂词义　错误② 附件说明重复</text>
+<text x="78" y="210" font-size="18" font-family="sans-serif" fill="#586271">正确：重输标题并合理断行；删除重复附件说明并规范填写。</text>
+<rect x="40" y="250" width="920" height="90" rx="13" fill="#FFF1F2" stroke="#B42335" stroke-opacity=".25"/>
+<rect x="56" y="267" width="5" height="58" rx="3" fill="#B42335"/>
+<text x="77" y="285" font-size="23" font-family="sans-serif" fill="#B42335" font-weight="700">错误③ 剪切粘贴书签　错误④ 直接改正文书签</text>
+<text x="78" y="317" font-size="18" font-family="sans-serif" fill="#586271">正确：拖拽书签；修改发文单后重新套红并更新。</text>
+<rect x="40" y="357" width="920" height="90" rx="13" fill="#FFF1F2" stroke="#B42335" stroke-opacity=".25"/>
+<rect x="56" y="374" width="5" height="58" rx="3" fill="#B42335"/>
+<text x="77" y="392" font-size="23" font-family="sans-serif" fill="#B42335" font-weight="700">错误⑤ 手动填写印发日期</text>
+<text x="78" y="424" font-size="18" font-family="sans-serif" fill="#586271">正确：使用系统带出的印发日期并核对流程记录。</text>
+<rect x="40" y="464" width="920" height="90" rx="13" fill="#EAF7F1" stroke="#087348" stroke-opacity=".25"/>
+<rect x="56" y="481" width="5" height="58" rx="3" fill="#087348"/>
+<text x="77" y="499" font-size="23" font-family="sans-serif" fill="#087348" font-weight="700">正确操作有独立标记，不能把错误示例当作操作要求</text>
+<text x="78" y="531" font-size="18" font-family="sans-serif" fill="#586271">本图只帮助总结，逐项依据请参考对应原文引用。</text>
+<text x="40" y="594" font-size="15" font-family="sans-serif" fill="#7C8794">教学示意图｜请以上传的 IOA 辅导清单及比赛现场流程为准</text></svg>
