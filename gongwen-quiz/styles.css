@@ -45,3 +45,6 @@
 .sample-modal-body.is-zoomed{justify-content:flex-start}
 .sample-modal-body.is-zoomed img{max-width:none;max-height:none;width:auto;min-width:850px}
 @media(max-width:520px){.sample-modal-body.is-zoomed img{min-width:720px}}
+/* Practice navigation belongs after choices, before answer explanation (v1.3.2) */
+.answer-list + .quiz-toolbar{margin:16px 0 0;padding:16px 0 0;border-top:1px solid var(--border);border-bottom:0}
+.answer-list + .quiz-toolbar + .feedback{margin-top:16px}
