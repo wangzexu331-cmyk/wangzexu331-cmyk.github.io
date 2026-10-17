@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="t d">
+<title id="t">IOA惯用公文起草流程</title><desc id="d">上传正文、填写发文单、上传附件、选择套红模板、核对书签</desc>
+<rect width="1000" height="600" fill="#f6f7f8"/><rect x="55" y="46" width="890" height="505" fill="white" stroke="#e5e7eb" rx="16"/>
+<text x="500" y="110" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#111827">IOA公文起草操作顺序</text>
+<text x="500" y="148" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="18" fill="#6b7280">请按比赛现场的系统界面确认实际按钮位置</text>
+<g font-family="Microsoft YaHei,sans-serif" font-size="21" text-anchor="middle">
+<rect x="100" y="196" width="235" height="88" rx="13" fill="#ecfdf5" stroke="#10b981"/><text x="217" y="249" fill="#065f46">1. 上传正文</text>
+<rect x="382" y="196" width="235" height="88" rx="13" fill="#f3f4f6" stroke="#9ca3af"/><text x="499" y="249" fill="#111827">2. 填写发文单</text>
+<rect x="664" y="196" width="235" height="88" rx="13" fill="#f3f4f6" stroke="#9ca3af"/><text x="781" y="249" fill="#111827">3. 上传附件</text>
+<rect x="250" y="340" width="235" height="88" rx="13" fill="#f3f4f6" stroke="#9ca3af"/><text x="367" y="393" fill="#111827">4. 选择套红模板</text>
+<rect x="555" y="340" width="235" height="88" rx="13" fill="#ecfdf5" stroke="#10b981"/><text x="672" y="393" fill="#065f46">5. 检查系统书签</text>
+</g>
+<g fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"><path d="M342 240h28l-9-9m9 9-9 9"/><path d="M623 240h29l-9-9m9 9-9 9"/><path d="M780 295v30H367v9"/><path d="M495 384h48l-9-9m9 9-9 9"/></g>
+<text x="500" y="495" text-anchor="middle" fill="#6b7280" font-size="16" font-family="Microsoft YaHei,sans-serif">依据《IOA自制公文审核要点及规范操作清单》 · 示意图（非系统截图）</text>
+</svg>

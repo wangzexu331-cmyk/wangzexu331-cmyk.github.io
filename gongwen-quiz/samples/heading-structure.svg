@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">公文正文四级结构层次示意</title><desc id="desc">根据国家标准7.3.3编绘。以不同文字字体和层级编号示例说明排版。</desc>
+<rect width="900" height="650" fill="#f3f4f6"/><rect x="75" y="43" width="750" height="555" rx="10" fill="#fff" stroke="#d1d5db"/>
+<text x="450" y="110" text-anchor="middle" font-size="29" fill="#111827" font-family="Microsoft YaHei, sans-serif" font-weight="700">正文结构层次与字体示意</text>
+<path d="M117 136H783" stroke="#e5e7eb" stroke-width="2"/>
+<text x="130" y="215" font-size="27" font-family="Microsoft YaHei, sans-serif" font-weight="700" fill="#111827">一、一级标题：黑体（3号）</text>
+<text x="165" y="300" font-size="27" font-family="KaiTi,STKaiti,serif" fill="#1f2937">（一）二级标题：楷体（3号）</text>
+<text x="194" y="385" font-size="27" font-family="FangSong,STFangsong,serif" fill="#1f2937">1. 三级标题：仿宋（3号）</text>
+<text x="220" y="470" font-size="27" font-family="FangSong,STFangsong,serif" fill="#1f2937">（1）四级标题：仿宋（3号）</text>
+<rect x="125" y="505" width="650" height="50" rx="8" fill="#ecfdf5"/><text x="450" y="537" text-anchor="middle" font-size="18" fill="#047857" font-family="Microsoft YaHei,sans-serif">依据 GB/T 9704—2012 第7.3.3节 · 示意图（非国标原图）</text>
+</svg>
