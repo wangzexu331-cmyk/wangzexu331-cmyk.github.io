@@ -7,10 +7,10 @@
   <meta name="theme-color" content="#F7F7F8">
   <meta name="description" content="公文技能比武备考平台：324道模拟题、限时模拟、实务写作、IOA实操、错题复习。">
   <title>公文技能比武 · 备考工作台</title>
-  <link rel="stylesheet" href="styles.css?v=20261018-3">
+  <link rel="stylesheet" href="styles.css?v=20261018-4">
   <script src="data.js" defer></script>
-  <script src="evidence.js?v=20261018-3" defer></script>
-  <script src="app.js?v=20261018-3" defer></script>
+  <script src="evidence.js?v=20261018-4" defer></script>
+  <script src="app.js?v=20261018-4" defer></script>
 </head>
 <body>
 <div class="layout" id="layout">
@@ -45,8 +45,8 @@
 </div>
 <div class="mobile-overlay" id="mobileOverlay" hidden></div>
 <dialog id="sampleDialog" class="sample-dialog" aria-labelledby="sampleTitle">
- <div class="sample-modal-head"><div><strong id="sampleTitle">规范样例预览</strong><span id="sampleSource" class="sample-modal-source"></span></div><button type="button" id="closeSample" class="sample-close" aria-label="关闭样例预览" title="关闭预览">×</button></div>
- <div class="sample-modal-body"><img id="sampleImage" alt="样例图片" decoding="async"></div>
+ <div class="sample-modal-head"><div><strong id="sampleTitle">规范样例预览</strong><span id="sampleSource" class="sample-modal-source"></span></div><div class="sample-modal-actions"><button type="button" id="zoomSample" class="sample-zoom" aria-label="放大样例图片" aria-pressed="false">放大</button><button type="button" id="closeSample" class="sample-close" aria-label="关闭样例预览" title="关闭预览">×</button></div></div>
+ <div class="sample-modal-body" id="sampleModalBody"><img id="sampleImage" alt="样例图片" decoding="async"></div>
 </dialog>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <input id="importFile" type="file" accept="application/json,.json" hidden>
